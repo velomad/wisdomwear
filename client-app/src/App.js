@@ -9,7 +9,7 @@ function App() {
 			<div
       style={{backgroundColor:"red"}}
       >new update</div>
-      <p>it should be changedddddddddddddddd</p>
+      <p>asda</p>
 		</div>
 	);
 }

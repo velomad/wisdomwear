@@ -32,7 +32,7 @@ registerRoute(
     if (request.mode !== 'navigate') {
       return false;
     } // If this is a URL that starts with /_, skip.
-
+ 
     if (url.pathname.startsWith('/_')) {
       return false;
     } // If this looks like a URL for a resource, because it contains // a file extension, skip.
