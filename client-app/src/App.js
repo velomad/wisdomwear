@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      fuk man it works
+      finally it man, it works
     </div>
   );
 }
