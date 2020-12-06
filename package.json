@@ -1,0 +1,14 @@
+{
+  "name": "project-wisdomwear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "cd server && npm install && npm start",
+    "client": "cd client-app && npm start",
+    "server": "cd server && npm run dev",
+    "heroku-postbuild": "cd client-app && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC"
+}
