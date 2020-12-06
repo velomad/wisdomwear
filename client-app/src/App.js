@@ -7,8 +7,9 @@ function App() {
 		<div className="App">
 			finally it man, it works
 			<div
-      style={{backgroundColor:"fuchsia"}}
+      style={{backgroundColor:"red"}}
       >new update</div>
+      <p>epic</p>
 		</div>
 	);
 }
