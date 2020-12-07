@@ -90,7 +90,7 @@ function App() {
 										href="#"
 										class="font-medium text-indigo-600 hover:text-indigo-500"
 									>
-										Log in
+										Log inss
 									</a>
 								</div>
 							</nav>
@@ -175,7 +175,7 @@ function App() {
 											class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
 											role="menuitem"
 										>
-											Log in
+											Log sss
 										</a>
 									</div>
 								</div>
