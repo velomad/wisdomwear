@@ -16,6 +16,7 @@ const Routes = () => {
 				/>
 				<Route path="*" component={() => "404 NOT FOUND"} />
 			</Switch>
+			
 		</Router>
 	);
 };

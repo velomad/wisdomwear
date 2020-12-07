@@ -12,9 +12,9 @@ const Navbar = () => {
 
 	return (
 		<React.Fragment>
-			<div class="relative p-4 px-4 sm:px-6 lg:px-8 fixed bg-gray-900">
+			<div class="relative p-4 px-4 sm:px-6 lg:px-8 fixed bg-white">
 				<nav
-					class="relative flex items-center justify-between sm:h-10 lg:justify-start"
+					class="relative flex items-center justify-between sm:h-10 lg:justify-around"
 					aria-label="Global"
 				>
 					<div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
@@ -60,7 +60,7 @@ const Navbar = () => {
 							to="home"
 							spy={true}
 							smooth={true}
-							offset={-70}
+							offset={-50}
 							duration={400}
 						>
 							<span class="font-medium text-gray-500 hover:text-gray-900">
@@ -73,7 +73,7 @@ const Navbar = () => {
 							to="about-us"
 							spy={true}
 							smooth={true}
-							offset={-70}
+							offset={-50}
 							duration={400}
 						>
 							<span
@@ -89,7 +89,7 @@ const Navbar = () => {
 							to="fabrics"
 							spy={true}
 							smooth={true}
-							offset={-70}
+							offset={-50}
 							duration={400}
 						>
 							<span
@@ -105,7 +105,7 @@ const Navbar = () => {
 							to="our-products"
 							spy={true}
 							smooth={true}
-							offset={-70}
+							offset={-50}
 							duration={400}
 						>
 							<span
@@ -121,7 +121,7 @@ const Navbar = () => {
 							to="contact-us"
 							spy={true}
 							smooth={true}
-							// offset={-70}
+							offset={-50}
 							duration={400}
 						>
 							<span
@@ -135,7 +135,7 @@ const Navbar = () => {
 
 					{open && (
 						<div
-							className={`absolute top-0 z-30 w-full md:hidden ${
+							className={`absolute top-0 z-50 w-full md:hidden ${
 								open &&
 								"transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110"
 							}`}

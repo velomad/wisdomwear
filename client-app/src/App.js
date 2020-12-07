@@ -17,8 +17,8 @@ function App() {
 		// }}
 		// className="h-screen"
 		>
+			<Routes />
 			<div>
-				<Routes />
 				<AboutUsPage />
 				<FabricsPage />
 				<OurProductsPage />
