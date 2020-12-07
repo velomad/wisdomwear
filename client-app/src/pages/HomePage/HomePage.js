@@ -1,7 +1,11 @@
 import React from "react";
 
 const Homepage = () => {
-	return <div>yest</div>;
+	return (
+		<div className="p-4 h-screen" id="home">
+			<div>this is home page</div>
+		</div>
+	);
 };
 
 export default Homepage;

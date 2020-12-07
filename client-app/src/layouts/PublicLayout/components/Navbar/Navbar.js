@@ -1,11 +1,18 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
 
+	const handleSection = () => {
+		setTimeout(() => {
+			setOpen(false);
+		}, 400);
+	};
+
 	return (
 		<React.Fragment>
-			<div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+			<div class="relative p-4 px-4 sm:px-6 lg:px-8 fixed bg-gray-900">
 				<nav
 					class="relative flex items-center justify-between sm:h-10 lg:justify-start"
 					aria-label="Global"
@@ -23,7 +30,7 @@ const Navbar = () => {
 								<button
 									onClick={() => setOpen(true)}
 									type="button"
-									class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none"
+									class=" rounded-md p-2 inline-flex items-center justify-center text-gray-400  focus:outline-none"
 									id="main-menu"
 									aria-haspopup="true"
 								>
@@ -48,31 +55,91 @@ const Navbar = () => {
 						</div>
 					</div>
 					<div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">
-							Home
-						</a>
-
-						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">
-							About Us
-						</a>
-
-						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">
-							Fabrics
-						</a>
-
-						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">
-							Our Products
-						</a>
-
-						<a
-							href="#"
-							class="font-medium text-indigo-600 hover:text-indigo-500"
+						<Link
+							activeClass="active"
+							to="home"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={400}
 						>
-							Contact Us
-						</a>
+							<span class="font-medium text-gray-500 hover:text-gray-900">
+								Home
+							</span>
+						</Link>
+
+						<Link
+							activeClass="active"
+							to="about-us"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={400}
+						>
+							<span
+								href="#"
+								class="font-medium text-gray-500 hover:text-gray-900"
+							>
+								About Us
+							</span>
+						</Link>
+
+						<Link
+							activeClass="active"
+							to="fabrics"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={400}
+						>
+							<span
+								href="#"
+								class="font-medium text-gray-500 hover:text-gray-900"
+							>
+								Fabrics
+							</span>
+						</Link>
+
+						<Link
+							activeClass="active"
+							to="our-products"
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={400}
+						>
+							<span
+								href="#"
+								class="font-medium text-gray-500 hover:text-gray-900"
+							>
+								Our Products
+							</span>
+						</Link>
+
+						<Link
+							activeClass="active"
+							to="contact-us"
+							spy={true}
+							smooth={true}
+							// offset={-70}
+							duration={400}
+						>
+							<span
+								href="#"
+								class="font-medium text-indigo-600 hover:text-indigo-500"
+							>
+								Contact Us
+							</span>
+						</Link>
 					</div>
+
 					{open && (
-						<div class="absolute top-0 z-30 inset-x-0 w-full transition transform origin-top-right md:hidden">
+						<div
+							className={`absolute top-0 z-30 w-full md:hidden ${
+								open &&
+								"transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+							}`}
+						>
 							<div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="px-5 pt-4 flex items-center justify-between">
 									<div>
@@ -113,46 +180,101 @@ const Navbar = () => {
 									aria-labelledby="main-menu"
 								>
 									<div class="px-2 pt-2 pb-3 space-y-1" role="none">
-										<a
-											href="#"
-											class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-											role="menuitem"
+										<Link
+											activeClass="active"
+											onClick={handleSection}
+											to="home"
+											spy={true}
+											smooth={true}
+											offset={-70}
+											duration={400}
+											delay={300}
 										>
-											Product
-										</a>
+											<span
+												href="#"
+												class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+												role="menuitem"
+											>
+												Home
+											</span>
+										</Link>
 
-										<a
-											href="#"
-											class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-											role="menuitem"
+										<Link
+											activeClass="active"
+											onClick={handleSection}
+											to="about-us"
+											spy={true}
+											smooth={true}
+											offset={-70}
+											duration={400}
+											delay={300}
 										>
-											Features
-										</a>
+											<span
+												href="#"
+												class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+												role="menuitem"
+											>
+												About us
+											</span>
+										</Link>
 
-										<a
-											href="#"
-											class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-											role="menuitem"
+										<Link
+											activeClass="active"
+											onClick={handleSection}
+											to="fabrics"
+											spy={true}
+											smooth={true}
+											offset={-70}
+											duration={400}
+											delay={300}
 										>
-											Marketplace
-										</a>
+											<span
+												href="#"
+												class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+												role="menuitem"
+											>
+												Fabrics
+											</span>
+										</Link>
 
-										<a
-											href="#"
-											class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-											role="menuitem"
+										<Link
+											activeClass="active"
+											onClick={handleSection}
+											to="our-products"
+											spy={true}
+											smooth={true}
+											offset={-70}
+											duration={400}
+											delay={300}
 										>
-											Company
-										</a>
+											<span
+												href="#"
+												class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+												role="menuitem"
+											>
+												Our Products
+											</span>
+										</Link>
 									</div>
 									<div role="none">
-										<a
-											href="#"
-											class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
-											role="menuitem"
+										<Link
+											activeClass="active"
+											onClick={handleSection}
+											to="contact-us"
+											spy={true}
+											smooth={true}
+											offset={-70}
+											duration={400}
+											delay={300}
 										>
-											Loginn in
-										</a>
+											<span
+												href="#"
+												class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+												role="menuitem"
+											>
+												Contact Us
+											</span>
+										</Link>
 									</div>
 								</div>
 							</div>

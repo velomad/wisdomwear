@@ -4,9 +4,11 @@ function PublicLayout(props) {
 	const { children, withFooter = false } = props;
 	return (
 		<div>
-			<Navbar />
+			<div className="fixed w-full">
+				<Navbar />
+			</div>
 
-			<div className="p-0">{children}</div>
+			<div className="pt-20">{children}</div>
 			{/* <div>{withFooter && <Footer />}</div> */}
 		</div>
 	);
