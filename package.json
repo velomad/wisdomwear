@@ -10,5 +10,9 @@
     "heroku-postbuild": "cd client-app && npm install && npm run build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss-cli": "^8.3.0"
+  }
 }
