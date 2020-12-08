@@ -29,9 +29,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && npm run build-sw",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-sw": "node ./src/sw-build.js"
   },
   "eslintConfig": {
     "extends": [
@@ -51,5 +52,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "workbox-build": "^6.0.2"
+  }
 }
