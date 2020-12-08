@@ -135,12 +135,12 @@ const Navbar = () => {
 
 					{open && (
 						<div
-							className={`absolute top-0 z-50 w-full md:hidden ${
+							className={`absolute top-0  z-50 w-full md:hidden ${
 								open &&
-								"transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+								"transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
 							}`}
 						>
-							<div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+							<div class="rounded-lg bg-gray-800 shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
 								<div class="px-5 pt-4 flex items-center justify-between">
 									<div>
 										<img
@@ -186,13 +186,13 @@ const Navbar = () => {
 											to="home"
 											spy={true}
 											smooth={true}
-											offset={-70}
+											offset={-50}
 											duration={400}
 											delay={300}
 										>
 											<span
 												href="#"
-												class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+												class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50"
 												role="menuitem"
 											>
 												Home
@@ -205,13 +205,13 @@ const Navbar = () => {
 											to="about-us"
 											spy={true}
 											smooth={true}
-											offset={-70}
+											offset={-50}
 											duration={400}
 											delay={300}
 										>
 											<span
 												href="#"
-												class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+												class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50"
 												role="menuitem"
 											>
 												About us
@@ -224,13 +224,13 @@ const Navbar = () => {
 											to="fabrics"
 											spy={true}
 											smooth={true}
-											offset={-70}
+											offset={-50}
 											duration={400}
 											delay={300}
 										>
 											<span
 												href="#"
-												class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+												class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50"
 												role="menuitem"
 											>
 												Fabrics
@@ -243,13 +243,13 @@ const Navbar = () => {
 											to="our-products"
 											spy={true}
 											smooth={true}
-											offset={-70}
+											offset={-50}
 											duration={400}
 											delay={300}
 										>
 											<span
 												href="#"
-												class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+												class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50"
 												role="menuitem"
 											>
 												Our Products
@@ -263,7 +263,7 @@ const Navbar = () => {
 											to="contact-us"
 											spy={true}
 											smooth={true}
-											offset={-70}
+											offset={-50}
 											duration={400}
 											delay={300}
 										>

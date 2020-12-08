@@ -2,9 +2,10 @@ import React from "react";
 
 const Homepage = () => {
 	return (
-		<div className="p-4 h-screen" id="home">
-			<div>this is home page with new strategy</div>
-			<div>this is home page with new strategy</div>
+		<div className="p-4 h-screen" id="home"
+			style={{background: `url(http://wisdomwear.in/images/bravo2.png)`, backgroundSize:"cover"}}
+		>
+			
 
 		</div>
 	);

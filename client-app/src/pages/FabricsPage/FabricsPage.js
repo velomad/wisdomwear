@@ -2,17 +2,31 @@ import React from "react";
 
 const Fabrics = () => {
 	return (
-		<div className="p-4 h-full" id="fabrics">
+		<div className="p-4 h-full md:h-screen" id="fabrics">
 			<section class="text-gray-700 body-font">
 				<div class="container px-5 py-10 mx-auto">
 					<div class="flex flex-wrap -m-4">
 						<div class="p-4 md:w-1/3">
-							<div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
-								<img
-									class="lg:h-48 md:h-36 w-full object-cover object-center"
-									src="http://wisdomwear.in/images/suitings.jpg"
-									alt="blog"
-								/>
+							<div class="h-full shadow-xl rounded-lg overflow-hidden">
+								<div
+									class="h-48 h-36 relative w-full object-center"
+									style={{
+										background: `url(http://wisdomwear.in/images/suitings.jpg)`,
+										backgroundSize: "cover",
+									}}
+								>
+									<div
+										style={{
+											height: "100%",
+											backgroundColor: "rgba(0, 0, 0, 0.6)",
+										}}
+									>
+										<div className="text-gray-100 text-2xl weight-600 absolute p-4 bottom-0">
+											Woven Suitings
+										</div>
+									</div>
+								</div>
+
 								<div class="p-6">
 									<h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
 										CATEGORY
@@ -74,12 +88,25 @@ const Fabrics = () => {
 							</div>
 						</div>
 						<div class="p-4 md:w-1/3">
-							<div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
-								<img
-									class="lg:h-48 md:h-36 w-full object-cover object-center"
-									src="http://wisdomwear.in/images/new.jpeg"
-									alt="blog"
-								/>
+							<div class="h-full shadow-xl rounded-lg overflow-hidden">
+								<div
+									class="h-48 h-36 relative w-full object-center"
+									style={{
+										background: `url(http://wisdomwear.in/images/suitings.jpg)`,
+										backgroundSize: "cover",
+									}}
+								>
+									<div
+										style={{
+											height: "100%",
+											backgroundColor: "rgba(0, 0, 0, 0.6)",
+										}}
+									>
+										<div className="text-gray-100 text-2xl weight-600 absolute p-4 bottom-0">
+											Knits
+										</div>
+									</div>
+								</div>
 								<div class="p-6">
 									<h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
 										CATEGORY
@@ -141,12 +168,25 @@ const Fabrics = () => {
 							</div>
 						</div>
 						<div class="p-4 md:w-1/3">
-							<div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
-								<img
-									class="lg:h-48 md:h-36 w-full object-fit"
-									src="http://wisdomwear.in/images/knits.jpeg"
-									alt="blog"
-								/>
+							<div class="h-full shadow-xl rounded-lg overflow-hidden">
+								<div
+									class="h-48 h-36 relative w-full object-center"
+									style={{
+										background: `url(http://wisdomwear.in/images/suitings.jpg)`,
+										backgroundSize: "cover",
+									}}
+								>
+									<div
+										style={{
+											height: "100%",
+											backgroundColor: "rgba(0, 0, 0, 0.6)",
+										}}
+									>
+										<div className="text-gray-100 text-2xl weight-600 absolute p-4 bottom-0">
+											Woven Shirting
+										</div>
+									</div>
+								</div>
 								<div class="p-6">
 									<h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
 										CATEGORY

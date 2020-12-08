@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUsPage = () => {
 	return (
-		<div className="p-4 h-full" id="about-us">
+		<div className="p-4 h-full md:h-screen" id="about-us">
 			<section class="text-gray-700 body-font">
 				<div class="container px-5 py-10 mx-auto">
 					<div class="text-center mb-20">
@@ -21,7 +21,7 @@ const AboutUsPage = () => {
 					<div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
 						<div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
 							<div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-5 flex-shrink-0">
-								<svg
+								{/* <svg
 									fill="none"
 									stroke="currentColor"
 									stroke-linecap="round"
@@ -31,36 +31,23 @@ const AboutUsPage = () => {
 									viewBox="0 0 24 24"
 								>
 									<path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-								</svg>
+								</svg> */}
+								<img src="/static/images/onboarding.svg" />
 							</div>
 							<div class="flex-grow">
 								<h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-									Shooting Stars
+									Our Roots
 								</h2>
 								<p class="leading-relaxed text-base">
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-									banh mi pug VHS try-hard.
+									Aarya Fashions is the leading name in manufacture and whole
+									sale of textiles and garments. Wisdom wear is the subsidiary
+									of Aarya Fashions.
 								</p>
-								<a class="mt-3 text-purple-500 inline-flex items-center">
-									Learn More
-									<svg
-										fill="none"
-										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										class="w-4 h-4 ml-2"
-										viewBox="0 0 24 24"
-									>
-										<path d="M5 12h14M12 5l7 7-7 7"></path>
-									</svg>
-								</a>
 							</div>
 						</div>
 						<div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
 							<div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-5 flex-shrink-0">
-								<svg
+								{/* <svg
 									fill="none"
 									stroke="currentColor"
 									stroke-linecap="round"
@@ -72,36 +59,24 @@ const AboutUsPage = () => {
 									<circle cx="6" cy="6" r="3"></circle>
 									<circle cx="6" cy="18" r="3"></circle>
 									<path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-								</svg>
+								</svg> */}
+								<img src="/static/images/badge.svg" />
 							</div>
 							<div class="flex-grow">
 								<h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-									The Catalyzer
+									Where We Stand
 								</h2>
 								<p class="leading-relaxed text-base">
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-									banh mi pug VHS try-hard.
+									At wisdom wear, we believe uniforms are lifestyle. Learning is
+									an attitude and the school is the only place to create the
+									better way of life. Uniforms have always been an important
+									part of the school life but it was not as exciting before.
 								</p>
-								<a class="mt-3 text-purple-500 inline-flex items-center">
-									Learn More
-									<svg
-										fill="none"
-										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										class="w-4 h-4 ml-2"
-										viewBox="0 0 24 24"
-									>
-										<path d="M5 12h14M12 5l7 7-7 7"></path>
-									</svg>
-								</a>
 							</div>
 						</div>
 						<div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
 							<div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-purple-100 text-purple-500 mb-5 flex-shrink-0">
-								<svg
+								{/* <svg
 									fill="none"
 									stroke="currentColor"
 									stroke-linecap="round"
@@ -112,31 +87,19 @@ const AboutUsPage = () => {
 								>
 									<path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
 									<circle cx="12" cy="7" r="4"></circle>
-								</svg>
+								</svg> */}
+								<img src="/static/images/target.svg" />
 							</div>
 							<div class="flex-grow">
 								<h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-									Neptune
+									Our Vision
 								</h2>
 								<p class="leading-relaxed text-base">
-									Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-									taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-									banh mi pug VHS try-hard.
+									Today the uniforms are all about passion, comfort and
+									attitude. Our team is passionate about offering an
+									unparalleled designing experience to the clients with an
+									attitude!
 								</p>
-								<a class="mt-3 text-purple-500 inline-flex items-center">
-									Learn More
-									<svg
-										fill="none"
-										stroke="currentColor"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										class="w-4 h-4 ml-2"
-										viewBox="0 0 24 24"
-									>
-										<path d="M5 12h14M12 5l7 7-7 7"></path>
-									</svg>
-								</a>
 							</div>
 						</div>
 					</div>
