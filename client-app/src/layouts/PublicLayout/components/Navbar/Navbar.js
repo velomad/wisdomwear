@@ -105,7 +105,7 @@ const Navbar = () => {
 							to="our-products"
 							spy={true}
 							smooth={true}
-							offset={-50}
+							offset={-100}
 							duration={400}
 						>
 							<span
@@ -243,7 +243,7 @@ const Navbar = () => {
 											to="our-products"
 											spy={true}
 											smooth={true}
-											offset={-50}
+											offset={-70}
 											duration={400}
 											delay={300}
 										>

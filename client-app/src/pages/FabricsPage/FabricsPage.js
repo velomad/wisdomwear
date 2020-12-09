@@ -27,18 +27,19 @@ const Fabrics = () => {
 									</div>
 								</div>
 
-								<div class="p-6">
+								<div class="p-6 space-y-4">
 									<h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
-										CATEGORY
+										Suitings
 									</h2>
-									<h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-										The Catalyzer
-									</h1>
+
 									<p class="leading-relaxed mb-3">
-										Photo booth fam kinfolk cold-pressed sriracha leggings
-										jianbing microdosing tousled waistcoat.
+										Suiting is a woven fabric that can be made with a wide
+										variety of contents including wool, cotton, rayon, silk and
+										polyester. Lycra or Spandex can be mixed with the other
+										fibers to make the suiting stretch. This feature allows for
+										more comfort and ease of wearing
 									</p>
-									<div class="flex items-center flex-wrap ">
+									{/* <div class="flex items-center flex-wrap ">
 										<a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">
 											Learn More
 											<svg
@@ -83,7 +84,7 @@ const Fabrics = () => {
 											</svg>
 											6
 										</span>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -107,18 +108,19 @@ const Fabrics = () => {
 										</div>
 									</div>
 								</div>
-								<div class="p-6">
+								<div class="p-6 space-y-4">
 									<h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
-										CATEGORY
+										Knits
 									</h2>
-									<h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-										The 400 Blows
-									</h1>
+
 									<p class="leading-relaxed mb-3">
-										Photo booth fam kinfolk cold-pressed sriracha leggings
-										jianbing microdosing tousled waistcoat.
+										Knitted fabric is a textile that results from knitting, the
+										process of inter-looping of yarns or inter-meshing of loops.
+										Its properties are distinct from woven fabric in that it is
+										more flexible and can be more readily constructed into
+										smaller pieces, making it ideal for socks and hats.
 									</p>
-									<div class="flex items-center flex-wrap">
+									{/* <div class="flex items-center flex-wrap">
 										<a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">
 											Learn More
 											<svg
@@ -163,7 +165,7 @@ const Fabrics = () => {
 											</svg>
 											6
 										</span>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -187,18 +189,20 @@ const Fabrics = () => {
 										</div>
 									</div>
 								</div>
-								<div class="p-6">
+								<div class="p-6 space-y-4">
 									<h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
-										CATEGORY
+										Shirting
 									</h2>
-									<h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-										Shooting Stars
-									</h1>
+
 									<p class="leading-relaxed mb-3">
-										Photo booth fam kinfolk cold-pressed sriracha leggings
-										jianbing microdosing tousled waistcoat.
+										Shirting fabric is a kind of primarily cotton or cotton
+										blend cloth used to make shirts. These fabrics should be
+										breathable, durable, pleasant to the touch, and comfortable
+										to wear all year round. That is why high thread count and
+										yarn dyed structure are the essential features of shirting
+										fabrics.
 									</p>
-									<div class="flex items-center flex-wrap ">
+									{/* {/* <div class="flex items-center flex-wrap ">
 										<a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">
 											Learn More
 											<svg
@@ -243,7 +247,7 @@ const Fabrics = () => {
 											</svg>
 											6
 										</span>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

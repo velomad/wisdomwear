@@ -7,7 +7,7 @@ const AboutUsPage = () => {
 				<div class="container px-5 py-10 mx-auto">
 					<div class="text-center mb-20">
 						<h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
-							Raw Denim Heirloom Man Braid
+							About Us
 						</h1>
 						<p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
 							Blue bottle crucifix vinyl post-ironic four dollar toast vegan

@@ -18,7 +18,7 @@ function App() {
 		// className="h-screen"
 		>
 			<Routes />
-			<div>
+			<div className="space-y-6">
 				<AboutUsPage />
 				<FabricsPage />
 				<OurProductsPage />
