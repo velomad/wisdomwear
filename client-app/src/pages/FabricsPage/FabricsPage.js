@@ -1,45 +1,45 @@
 import React from "react";
 
 const Fabrics = () => {
-	return (
-		<div className="p-4 h-full md:h-screen" id="fabrics">
-			<section class="text-gray-700 body-font">
-				<div class="container px-5 py-10 mx-auto">
-					<div class="flex flex-wrap -m-4">
-						<div class="p-4 md:w-1/3">
-							<div class="h-full shadow-xl rounded-lg overflow-hidden">
-								<div
-									class="h-48 h-36 relative w-full object-center"
-									style={{
-										background: `url(http://wisdomwear.in/images/suitings.jpg)`,
-										backgroundSize: "cover",
-									}}
-								>
-									<div
-										style={{
-											height: "100%",
-											backgroundColor: "rgba(0, 0, 0, 0.6)",
-										}}
-									>
-										<div className="text-gray-100 text-2xl weight-600 absolute p-4 bottom-0">
-											Woven Suitings
-										</div>
-									</div>
-								</div>
+  return (
+    <div className="p-4 h-full md:h-screen" id="fabrics">
+      <section class="text-gray-700 body-font">
+        <div class="container px-5 py-10 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/3">
+              <div class="h-full shadow-xl rounded-lg overflow-hidden">
+                <div
+                  class="h-48 h-36 relative w-full object-center"
+                  style={{
+                    background: `url(http://wisdomwear.in/images/suitings.jpg)`,
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <div
+                    style={{
+                      height: "100%",
+                      backgroundColor: "rgba(0, 0, 0, 0.6)",
+                    }}
+                  >
+                    <div className="text-gray-100 text-2xl weight-600 absolute p-4 bottom-0">
+                      Woven Suitings
+                    </div>
+                  </div>
+                </div>
 
-								<div class="p-6 space-y-4">
-									<h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
-										Suitings
-									</h2>
+                <div class="p-6 space-y-4">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">
+                    Suitings
+                  </h2>
 
-									<p class="leading-relaxed mb-3">
-										Suiting is a woven fabric that can be made with a wide
-										variety of contents including wool, cotton, rayon, silk and
-										polyester. Lycra or Spandex can be mixed with the other
-										fibers to make the suiting stretch. This feature allows for
-										more comfort and ease of wearing
-									</p>
-									{/* <div class="flex items-center flex-wrap ">
+                  <p class="leading-relaxed mb-3 text-gray-500">
+                    Suiting is a woven fabric that can be made with a wide
+                    variety of contents including wool, cotton, rayon, silk and
+                    polyester. Lycra or Spandex can be mixed with the other
+                    fibers to make the suiting stretch. This feature allows for
+                    more comfort and ease of wearing
+                  </p>
+                  {/* <div class="flex items-center flex-wrap ">
 										<a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">
 											Learn More
 											<svg
@@ -85,42 +85,43 @@ const Fabrics = () => {
 											6
 										</span>
 									</div> */}
-								</div>
-							</div>
-						</div>
-						<div class="p-4 md:w-1/3">
-							<div class="h-full shadow-xl rounded-lg overflow-hidden">
-								<div
-									class="h-48 h-36 relative w-full object-center"
-									style={{
-										background: `url(http://wisdomwear.in/images/suitings.jpg)`,
-										backgroundSize: "cover",
-									}}
-								>
-									<div
-										style={{
-											height: "100%",
-											backgroundColor: "rgba(0, 0, 0, 0.6)",
-										}}
-									>
-										<div className="text-gray-100 text-2xl weight-600 absolute p-4 bottom-0">
-											Knits
-										</div>
-									</div>
-								</div>
-								<div class="p-6 space-y-4">
-									<h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
-										Knits
-									</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full shadow-xl rounded-lg overflow-hidden">
+                <div
+                  class="h-48 h-36 relative w-full object-center"
+                  style={{
+                    background: `url(/static/images/knit.jpg)`,
+                    backgroundSize: "contain",
+                    backgroundRepeat: "round",
+                  }}
+                >
+                  <div
+                    style={{
+                      height: "100%",
+                      backgroundColor: "rgba(0, 0, 0, 0.1)",
+                    }}
+                  >
+                    <div className="text-gray-100 text-2xl weight-600 absolute p-4 bottom-0">
+                      Knits
+                    </div>
+                  </div>
+                </div>
+                <div class="p-6 space-y-4">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">
+                    Knits
+                  </h2>
 
-									<p class="leading-relaxed mb-3">
-										Knitted fabric is a textile that results from knitting, the
-										process of inter-looping of yarns or inter-meshing of loops.
-										Its properties are distinct from woven fabric in that it is
-										more flexible and can be more readily constructed into
-										smaller pieces, making it ideal for socks and hats.
-									</p>
-									{/* <div class="flex items-center flex-wrap">
+                  <p class="leading-relaxed mb-3 text-gray-500 ">
+                    Knitted fabric is a textile that results from knitting, the
+                    process of inter-looping of yarns or inter-meshing of loops.
+                    Its properties are distinct from woven fabric in that it is
+                    more flexible and can be more readily constructed into
+                    smaller pieces, making it ideal for socks and hats.
+                  </p>
+                  {/* <div class="flex items-center flex-wrap">
 										<a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">
 											Learn More
 											<svg
@@ -166,43 +167,44 @@ const Fabrics = () => {
 											6
 										</span>
 									</div> */}
-								</div>
-							</div>
-						</div>
-						<div class="p-4 md:w-1/3">
-							<div class="h-full shadow-xl rounded-lg overflow-hidden">
-								<div
-									class="h-48 h-36 relative w-full object-center"
-									style={{
-										background: `url(http://wisdomwear.in/images/suitings.jpg)`,
-										backgroundSize: "cover",
-									}}
-								>
-									<div
-										style={{
-											height: "100%",
-											backgroundColor: "rgba(0, 0, 0, 0.6)",
-										}}
-									>
-										<div className="text-gray-100 text-2xl weight-600 absolute p-4 bottom-0">
-											Woven Shirting
-										</div>
-									</div>
-								</div>
-								<div class="p-6 space-y-4">
-									<h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
-										Shirting
-									</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full shadow-xl rounded-lg overflow-hidden">
+                <div
+                  class="h-48 h-36 relative w-full object-center"
+                  style={{
+                    background: `url(/static/images/shi.jpg)`,
+                    backgroundSize: "contain",
+                    width: "100%",
+                  }}
+                >
+                  <div
+                    style={{
+                      height: "100%",
+                      backgroundColor: "rgba(0, 0, 0, 0.6)",
+                    }}
+                  >
+                    <div className="text-gray-100 text-2xl weight-600 absolute p-4 bottom-0">
+                      Woven Shirting
+                    </div>
+                  </div>
+                </div>
+                <div class="p-6 space-y-4">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">
+                    Shirting
+                  </h2>
 
-									<p class="leading-relaxed mb-3">
-										Shirting fabric is a kind of primarily cotton or cotton
-										blend cloth used to make shirts. These fabrics should be
-										breathable, durable, pleasant to the touch, and comfortable
-										to wear all year round. That is why high thread count and
-										yarn dyed structure are the essential features of shirting
-										fabrics.
-									</p>
-									{/* {/* <div class="flex items-center flex-wrap ">
+                  <p class="leading-relaxed mb-3 text-gray-500">
+                    Shirting fabric is a kind of primarily cotton or cotton
+                    blend cloth used to make shirts. These fabrics should be
+                    breathable, durable, pleasant to the touch, and comfortable
+                    to wear all year round. That is why high thread count and
+                    yarn dyed structure are the essential features of shirting
+                    fabrics.
+                  </p>
+                  {/* {/* <div class="flex items-center flex-wrap ">
 										<a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">
 											Learn More
 											<svg
@@ -248,14 +250,14 @@ const Fabrics = () => {
 											6
 										</span>
 									</div> */}
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-	);
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 };
 
 export default Fabrics;
